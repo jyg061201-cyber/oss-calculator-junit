@@ -15,7 +15,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Test for function add")
     void testAdd() {
-        assertEquals(11, calc.add(5, 5), "5 + 5 should be 10");
+        assertEquals(10, calc.add(5, 5), "5 + 5 should be 10");
     }
 
     @Test
